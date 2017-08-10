@@ -1,0 +1,24 @@
+{
+  "name": "circleci_test",
+  "private": false,
+  "license": "UNLICENSED",
+  "version": "0.0.0",
+  "description": "Testing integration with Circle CI",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha --bail test/test.js"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "aws-sdk": "^2.94.0",
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.2",
+    "bunyan": "^1.8.10",
+    "express": "4.15.3",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1"
+  },
+  "devDependencies": {
+    "mocha": "^3.5.0"
+  }
+}
