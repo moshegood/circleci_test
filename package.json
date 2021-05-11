@@ -14,11 +14,11 @@
     "bluebird": "^3.5.0",
     "body-parser": "^1.17.2",
     "bunyan": "^1.8.10",
-    "express": "4.15.3",
+    "express": "^4.17.1",
     "request": "^2.81.0",
     "request-promise": "^4.2.1"
   },
   "devDependencies": {
-    "mocha": "^3.5.0"
+    "mocha": "^8.4.0"
   }
 }
